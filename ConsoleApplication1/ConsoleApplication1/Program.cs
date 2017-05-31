@@ -91,7 +91,7 @@ namespace ConsoleApplication1
         {
             using (SpringCloudApplication.Run<IServiceProduct>())
             {
-                Console.WriteLine("Press <Enter> to stop the service.");
+                Console.WriteLine("Press <Enter> to stop the service : http://localhost:8080/IServiceProduct/Product/{{id}}");
                 Console.ReadLine();
             }
         }
