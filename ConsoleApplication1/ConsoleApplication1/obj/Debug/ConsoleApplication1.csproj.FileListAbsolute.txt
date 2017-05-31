@@ -1,0 +1,19 @@
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.Convention.dll
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.Hosting.dll
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.Runtime.dll
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.Convention.xml
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.Hosting.xml
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.Runtime.xml
+C:\Users\EIDPF005\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\EIDPF005\Source\Repos\SpringCloudDotnet\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\EIDPF005\Source\Repos\SpringCloudDotnet\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\EIDPF005\Source\Repos\SpringCloudDotnet\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
