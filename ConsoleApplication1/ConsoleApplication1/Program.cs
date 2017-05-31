@@ -61,15 +61,15 @@ namespace ConsoleApplication1
     public class SpringCloudApplication : IDisposable
     {
         private CompositionHost m_Container;
-        private ServiceHost m_ServiceHost;
+        private ServiceHost m_Host;
 
         private SpringCloudApplication(Type type)
         {
             this.m_Container = new ContainerConfiguration().WithAssembly(type.Assembly).CreateContainer();
-            this.m_ServiceHost = new ServiceHost(this.m_Container.GetExport(type), new Uri("http://localhost:8080/"));
-            this.m_ServiceHost.Description.Behaviors.Find<ServiceBehaviorAttribute>().InstanceContextMode = InstanceContextMode.Single;
-            this.m_ServiceHost.AddServiceEndpoint(typeof(IServiceProduct), new WebHttpBinding(), type.Name).EndpointBehaviors.Add(new WebHttpBehavior());
-            this.m_ServiceHost.Open();
+            this.m_Host = new ServiceHost(this.m_Container.GetExport(type), new Uri("http://localhost:8080/"));
+            this.m_Host.Description.Behaviors.Find<ServiceBehaviorAttribute>().InstanceContextMode = InstanceContextMode.Single;
+            this.m_Host.AddServiceEndpoint(typeof(IServiceProduct), new WebHttpBinding(), type.Name).EndpointBehaviors.Add(new WebHttpBehavior());
+            this.m_Host.Open();
         }
 
         static public SpringCloudApplication Run<T>()
@@ -80,8 +80,8 @@ namespace ConsoleApplication1
 
         public void Dispose()
         {
-            this.m_ServiceHost.Close();
-            (this.m_ServiceHost as IDisposable).Dispose();
+            this.m_Host.Close();
+            (this.m_Host as IDisposable).Dispose();
         }
     }
 
